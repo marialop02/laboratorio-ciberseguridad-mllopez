@@ -2,7 +2,7 @@ FROM python:alpine
 
 WORKDIR /app
 
-COPY . /app/
+COPY app.py /app/app.py
 
 EXPOSE 8080
 
